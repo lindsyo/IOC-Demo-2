@@ -1,7 +1,24 @@
-/* ------- CSS RESET -------*/
+/* ------- CSS RESET ------- */
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid lightgrey; */
+}
+
+/* ------- Banner ------- */
+
+.padded {
+  padding: 10%;
+}
+
+.padded-5 {
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.right {
+  text-align: right;
 }
 
 body {
@@ -14,11 +31,26 @@ p {
   font-size: 1.1rem;
 }
 
+.quote-mark {
+  font-size: 8rem;
+  color: grey;
+  padding-left: 5%;
+}
+
+.right {
+  padding-right: 5%;
+}
+
+.quote-text {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
 .palm {
   min-height: 100vh;
   background-image: url(../images/larm-rmah-273854.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   text-align: center;
 }
 
@@ -41,7 +73,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -61,17 +93,19 @@ h1, h2, h3{
 
 .lifetime {
   text-align: left;
-  padding: 0% 10%;
 }
+
+/* ------- Quote ------- */
+
 
 .pencil p {
   color: black;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .pencil h3 {
   color: black;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .pencil {
@@ -84,4 +118,43 @@ h1, h2, h3{
 
 .white-text {
   color: white;
+}
+
+.author {
+  color: lightgrey;
+  font-size: 2rem;
+  text-align: right;
+}
+
+/* ------- Footer ------- */
+
+footer {
+  background-color: #192b37;
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 4rem;
+}
+
+input, textarea, button {
+  margin-bottom: 10px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+textarea {
+  padding: 30px;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #ffbe00;
 }
