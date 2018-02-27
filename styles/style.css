@@ -6,7 +6,7 @@
   /* border: 1px solid lightgrey; */
 }
 
-/* ------- Banner ------- */
+/* ------- Staples ------- */
 
 .padded {
   padding: 10%;
@@ -18,11 +18,21 @@
 }
 
 .right {
+  padding-right: 5%;
   text-align: right;
 }
 
 body {
   font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 p {
@@ -31,20 +41,15 @@ p {
   font-size: 1.1rem;
 }
 
-.quote-mark {
-  font-size: 8rem;
-  color: grey;
-  padding-left: 5%;
+span {
+  color: #ffbe00;
 }
 
-.right {
-  padding-right: 5%;
+.white-text {
+  color: white;
 }
 
-.quote-text {
-  font-size: 2rem;
-  margin-bottom: 1em;
-}
+/* ------- Banner ------- */
 
 .palm {
   min-height: 100vh;
@@ -59,23 +64,12 @@ p {
   font-size: 3rem;
 }
 
-span {
-  color: #ffbe00;
-}
-
 h1 {
   color: white;
   font-size: 6rem;
 }
 
-h2 {
-  font-size: 3rem;
-  padding-bottom: 10px;
-}
-
-h1, h2, h3 {
-  font-family: 'Merriweather Sans', sans-serif;
-}
+/* ------- Section One ------- */
 
 .dog {
   min-height: 80vh;
@@ -84,6 +78,12 @@ h1, h2, h3 {
   background-position: right;
 }
 
+.lifetime {
+  text-align: left;
+}
+
+/* ------- Section Two ------- */
+
 .bedroom {
   min-height: 80vh;
   background-image: url(../images/rhema-kallianpur-275251.jpg);
@@ -91,12 +91,7 @@ h1, h2, h3 {
   background-position: left;
 }
 
-.lifetime {
-  text-align: left;
-}
-
-/* ------- Quote ------- */
-
+/* ------- Banner Two ------- */
 
 .pencil p {
   color: black;
@@ -116,14 +111,23 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.white-text {
-  color: white;
-}
-
 .author {
   color: lightgrey;
   font-size: 2rem;
   text-align: right;
+}
+
+/* ------- Quote ------- */
+
+.quote-mark {
+  font-size: 8rem;
+  color: grey;
+  padding-left: 5%;
+}
+
+.quote-text {
+  font-size: 2rem;
+  margin-bottom: 1em;
 }
 
 /* ------- Footer ------- */
