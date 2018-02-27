@@ -1,7 +1,87 @@
- {
-  border: 1px solid black;
+/* ------- CSS RESET -------*/
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-section {
-  background-image: url(charles-deluvio-351207.jpg);
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  color: #333831;
+  font-size: 1.1rem;
+}
+
+.palm {
+  min-height: 100vh;
+  background-image: url(../images/larm-rmah-273854.jpg);
+  background-size: cover;
+  background-position: right;
+  text-align: center;
+}
+
+.palm p {
+  color: white;
+  font-size: 3rem;
+}
+
+span {
+  color: #ffbe00;
+}
+
+h1 {
+  color: white;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+h1, h2, h3{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.dog {
+  min-height: 80vh;
+  background-image: url(../images/charles-deluvio-351207.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.bedroom {
+  min-height: 80vh;
+  background-image: url(../images/rhema-kallianpur-275251.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.lifetime {
+  text-align: left;
+  padding: 0% 10%;
+}
+
+.pencil p {
+  color: black;
+  font-size: 3rem;
+}
+
+.pencil h3 {
+  color: black;
+  font-size: 6rem;
+}
+
+.pencil {
+  min-height: 80vh;
+  background-image: url(../images/joanna-kosinska-129039.jpg);
+  background-size: cover;
+  background-position: right;
+  text-align: center;
+}
+
+.white-text {
+  color: white;
 }
